@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <!-- creating Header -->
+     <header>
+            <h2 id="heading">AlgoQuest</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#visualize-options">Visualization</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+     </header>
+     <section class="hero">
+        <h1>Welcome to the <span>Graph Traversal Visualizer</span></h1>
+        <p>Explore the world of algorithms like never before. Visualize, learn, and grow.</p>
+        <a href="#visualize-options" class="cta-button">Start Visualizing</a>
+     </section>
+
+     <!-- --------------------------------------- -->
+      <!-- Struggle Image Section -->
+       <!-- Struggles with Graph Traversal Section -->
+    <section id="struggles-section">
+        <h2>Why Understanding <span>Graph Traversal</span> is Challenging?</h2>
+        <div class="image-container">
+            <img src="image1.jpg" alt="Confused person with graphs">
+            <img src="image2.jpg" alt="Trying to solve graph problem">
+            <img src="image3.jpg" alt="Lightbulb moment with clear graphs">
+        </div>
+        <p>
+            Many students struggle to grasp graph traversal concepts like BFS and DFS. 
+            The abstract nature of nodes, edges, and algorithms can be overwhelming. 
+            This visualizer aims to simplify these concepts by providing interactive, step-by-step explanations.
+        </p>
+    </section>
+   
+
+
+    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+    <!-- About Section -->
+<section id="about" class="about">
+    <h2>Why this <span>Visualizer?</span></h2>
+    <p>
+        Understanding graph algorithms can be tricky, but what if you could see each step unfold right in front of your eyes?
+        This interactive visualizer helps you learn complex concepts like <strong>BFS</strong> and <strong>DFS</strong> by watching them in action.
+    </p>
+    <p>
+        Our goal is to simplify abstract ideas by providing a hands-on experience. 
+        With step-by-step visual explanations, learners can clearly see how nodes are visited, 
+        making learning <strong>engaging</strong>, <strong>visual</strong>, and <strong>effective</strong>.
+    </p>
+</section>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+ <!-- Selecting Algorithm -->
+ <!-- Visualization Options Section -->
+<section id="visualize-options" class="visualize-options">
+    <h2>Choose an Algorithm to <span>Visualize</span></h2>
+    <div class="options-container">
+        <a href="bfs/index.html">
+            <div class="option-card bfs">
+                <h3>BFS Traversal</h3>
+                <p>Explore graphs layer by layer with Breadth-First Search.</p>
+            </div>
+        </a>
+        <a href="dfs/index.html">
+            <div class="option-card dfs">
+                <h3>DFS Traversal</h3>
+                <p>Dive deep into graphs with Depth-First Search.</p>
+            </div>
+        </a>
+        <div class="option-card coming-soon">
+            <h3>More Algorithms</h3>
+            <p>Coming soon...</p>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- Feedback Section -->
+<!-- Feedback Section -->
+<section id="feedback" class="feedback-section">
+    <h2>We Value Your Feedback!</h2>
+    <p>Let us know your thoughts about the Graph Traversal Visualizer.</p>
+    
+    <form id="feedbackForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="message">Your Feedback:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your feedback here..." required></textarea>
+        
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <p id="feedbackResponse" class="response-message"></p>
+</section>
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+ <!-- Footer -->
+
+ <footer id="contact">
+    <p>Designed by Ayush Goyanka | B.Tech CSE | LNCT Bhopal</p>
+    <p>Connect with me on <a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+    <div>
+        <a href="https://www.linkedin.com/in/ayush-goyanka-731aa4293?original_referer=https%3A%2F%2Flinktr.ee%2F"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/ayushgoyanka51?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/ayushgoyanka/?igsh=YmY3Y2F2OGE1d3B1#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/AyushGoyanka"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

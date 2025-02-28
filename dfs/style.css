@@ -1,0 +1,130 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f0db4f; /* Yellow accent */
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    background-color: #f04f4f;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #c03c3c;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.input-group, .options, .graph-size, .animation-speed {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"], input[type="range"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+.options div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input[type="radio"] {
+    transform: scale(1.2);
+    margin-right: 5px;
+}
+
+/* Graph Canvas */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    border: 2px solid #f0db4f;
+    border-radius: 8px;
+    padding: 20px;
+    height: 500px;
+}
+
+canvas {
+    border: 2px solid white;
+}
+
+/* Output */
+.output {
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f0db4f;
+}
+
+#dfsResult {
+    font-size: 18px;
+    color: #ffffff;
+}
